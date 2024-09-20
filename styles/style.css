@@ -13,7 +13,6 @@ body {
 
 #backgroundImage {
     background-image: url('../img/beijo.jpg');
-    background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
     position: fixed;
