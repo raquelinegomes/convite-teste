@@ -13,17 +13,18 @@ body {
 
 #backgroundImage {
     background-image: url('../img/beijo.jpg');
-    background-size: cover; /* Mantém a proporção da imagem e cobre toda a tela */
+    background-size: cover; /* Cobre a tela mantendo a proporção */
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%; /* Garante que a largura ocupe 100% */
-    height: 100%; /* Garante que a altura ocupe 100% */
+    width: 100%; /* Remova se necessário */
+    height: 100%; /* Remova se necessário */
     animation: spinZoom 2s forwards; /* Animação de rotação e zoom */
     z-index: -1; 
 }
+
 
 
 @keyframes spinZoom {
