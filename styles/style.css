@@ -11,6 +11,13 @@ body {
     position: relative; 
 }
 
+@media (max-width: 768px) {
+    body {
+        background-size: contain; /* Ajusta a imagem para se comportar melhor em telas menores */
+        background-repeat: no-repeat;
+    }
+}
+
 #backgroundImage {
     background-image: url('../img/beijo.jpg');
     background-size: 25%;
